@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <h1 className="font-semibold text-3xl mt-10 mb-10">Good Afternoon</h1>
           <div className="grid grid-cols-3 gap-4 mt-4">
-            <a href='#' className="bg-white/10 flex items-center rounded overflow-hidden hover:bg-white/20 gap-4 trasitions=colors group">
+            <a href='#' className="bg-white/5 flex items-center rounded overflow-hidden hover:bg-white/20 gap-4 trasitions=colors group">
               <Image src="/album.jpg" width={104} height={104} alt="Capa do Album da banda" />
             <strong>Men at Work</strong>
             <button className="w-12 h-12 pl-1 flex items-center justify-center rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
@@ -87,10 +87,40 @@ export default function Home() {
             </button>
             </a>
           </div>
+          <h2 className="font-semibold text-3xl mt-10 mb-10">Made for Diego Shell Fernandez</h2>
+          <div className="grid grid-cols-8 gap-4 mt-4">
+              <a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+                <Image src="/album.jpg" width={240} height={240} alt="Capa do Album da banda" />
+                <strong className="font-semibold">Nome do Album</strong>
+                <span className="text-sm text-zinc-500">One, two, three and more</span>
+              </a>
+              <a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+                <Image src="/album.jpg" width={240} height={240} alt="Capa do Album da banda" />
+                <strong className="font-semibold">Nome do Album</strong>
+                <span className="text-sm text-zinc-500">One, two, three and more</span>
+              </a>
+              <a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+                <Image src="/album.jpg" width={240} height={240} alt="Capa do Album da banda" />
+                <strong className="font-semibold">Nome do Album</strong>
+                <span className="text-sm text-zinc-500">One, two, three and more</span>
+              </a>
+              <a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+                <Image src="/album.jpg" width={240} height={240} alt="Capa do Album da banda" />
+                <strong className="font-semibold">Nome do Album</strong>
+                <span className="text-sm text-zinc-500">One, two, three and more</span>
+              </a>
+              <a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+                <Image src="/album.jpg" width={240} height={240} alt="Capa do Album da banda" />
+                <strong className="font-semibold">Nome do Album</strong>
+                <span className="text-sm text-zinc-500">One, two, three and more</span>
+              </a>
+            </div>
         </main>
       </div>
       <footer className='bg-zinc-800 border-t border-zinc-700 p-6'>
-        Footer
+        <div></div>
+        <div></div>
+        <div></div>
       </footer>
     </div>
   )
