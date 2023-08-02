@@ -1,2 +1,2 @@
 # tailwind-spotify
-Estudo de React utilizando framework Tailwind
+ Estudo de React utilizando framework Tailwind
